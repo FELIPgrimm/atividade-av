@@ -1,13 +1,18 @@
-package br.com.empresa;
-
 public class Main {
     public static void main(String[] args) {
-        Funcionario funcionario = new Funcionario("Guilherme", 50, 160);
-        Lider lider = new Lider("Alecxandre", 75, 160);
-        Gerente gerente = new Gerente("Felipe", 120, 160);
+        Retangulo arredondado = new Arredondado("Arredondado", 20, 5);
+        Retangulo linhaDupla = new LinhaDupla("Linha Dupla", 20, 5);
+        Retangulo asciiArt = new AsciiArt("ASCII Art", 20, 5);
+        Retangulo colorido = new Colorido("Colorido", 20, 5, "blue", "yellow");
 
-        System.out.println("Salário do Funcionário: " + funcionario.calcularSalario());
-        System.out.println("Salário do Líder: " + lider.calcularSalario());
-        System.out.println("Salário do Gerente: " + gerente.calcularSalario());
+
+        arredondado.draw();
+        System.out.println();
+
+        linhaDupla.draw();
+        System.out.println();
+        asciiArt.draw();
+
+        colorido.draw();
     }
 }
