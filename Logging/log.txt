@@ -1,0 +1,3 @@
+2024-05-27T20:50:27.869201200[DEBUG]Está é uma mensagem de depuração
+2024-05-27T20:50:27.870353300[WARNING]Esta é uma mensagem de cuidado
+2024-05-27T20:50:27.871536200[ERROR]Esta é uma mensagem de erro
